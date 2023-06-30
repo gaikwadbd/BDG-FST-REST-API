@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTest Suite">
+    <test name="MyTest">
+        <classes>
+            <class name="examples.ChainingExampleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Case 2">
+        <classes>
+            <class name="examples.ChainingExampleDeleteTest"/>
+        </classes>
+    </test>
+</suite>
